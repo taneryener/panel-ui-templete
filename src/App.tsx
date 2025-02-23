@@ -13,11 +13,11 @@ function App() {
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo w-32 h-32 react hover:animate-spin transition-transform duration-500" alt="React logo" />
+          <img src={reactLogo} className="logo react hover:animate-spin transition-transform duration-500" alt="React logo" />
         </a>
       </div>
       <h1 className="text-3xl text-center mt-8 mb-4">Vite + React</h1>
-      <div className="card p-6 text-center border border-gray-300 rounded-lg shadow-md">
+      <div className="card p-6 text-center">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
